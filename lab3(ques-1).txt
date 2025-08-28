@@ -5,9 +5,10 @@ int main()
     int a,b,sum;
     printf("enter first number:");
     scanf("%d",&a);
-    printf("enter seccond number:");
+    printf("enter second number:");
     scanf("%d",&b);
     sum=a+b;
     printf("the sum of %d and %d is:%d\n",a,b,sum);
     return 0;
 }
+

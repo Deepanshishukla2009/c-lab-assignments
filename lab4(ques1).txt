@@ -26,9 +26,14 @@ int main()
     {
         printf("triangle is isosceles\n");
     }
+    else if ((a * a == b * b + c * c) ||(b * b == a * a + c * c) || (c * c == a * a + b * b))
+    {
+        printf("triangle is right angeled\n");
+    }
     else
     {
         printf("triangle is scalene\n");
     }
     return 0;
 }
+
